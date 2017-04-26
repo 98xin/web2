@@ -1,0 +1,30 @@
+a{
+	text-decoration:none;
+	color:#000000;
+}
+h2{
+	color:#C0C0C0;
+	font-size:12px;
+	text-align:center;
+}
+.menu{
+	color:#FFFFFF;
+	font-weight:bolder;
+}
+.green{
+	color:#00FF00;
+}
+.special{
+	color:orange;
+}
+.hot{
+	color:#00FFFF;
+	font-size:18px;
+}
+.textp{
+	text-indent:2em;
+	line-height:36px;
+}
+.font_next{
+	color:#00FFFF;
+}
