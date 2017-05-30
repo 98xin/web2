@@ -1,0 +1,20 @@
+*{padding-bottom:0px;margin:0px;}
+body{font:12px/24px "宋体" ;color:#333;background:#f4f4b6;}
+ul{list-style:none;}
+a{text-decoration:none; color:#333;}
+.logo{width:1000px;margin:10px auto;}
+.sou{margin:10px;float:right;}
+.menu{width:100%;height:40px;background:#2d9f0b;}
+.menu ul{width:1000px;margin:0px auto;}
+.menu ul li{float:left;width:120px;line-height:40px;}
+.menu a{font-size:16px;color:#000;color:#ffffff;}
+.banner,.banner img{width:100%;height:auto;}
+.main{width:1000px;margin:0px auto;}
+.m_left{width:250px;float:left;}
+.m_right{width:750px;float:left;}
+.list{width:1000px;margin:0px auto;border:1px solid #ccc;}
+.l_img2{width:320px;height:300px;float:left;margin:10px;border:1px solid #ccc;}
+.l_img1{width:635px;height:300px;float:left;margin:10px;border:1px solid #ccc;}
+.l_img{width:227px;height:300px;float:left;margin:10px;border:1px solid #ccc;}
+.footer{height:100px;background:#666;color:#aaa;text-align:center;}
+.clear{clear:both;}
