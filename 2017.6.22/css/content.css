@@ -1,0 +1,47 @@
+body{background-color: #01030f}
+a{text-decoration:none;}
+.clear{clear:both;}
+ul li{list-style:none;}
+/*页面首部*/
+.biaoti {
+	height:300px;
+	width:100%;
+	margin:0 auto;
+	padding-bottom: 0;
+	font-family:"楷体";
+	font-size:20px;
+	}
+.logo{width:1000px;margin:0px auto;}
+.logo h1{float:right;color:#34a5d1;margin-right: 700px;}
+.daohang{background-color:#2a213c;}
+.menu{width:1000px;margin:0px auto;height:40px;padding-top: 10px;text-align:center;}
+.menu a{float:left;color:#fff;}
+.menu a:hover{color:#66FFFF;font-size:22px;}
+.banner{width:100%;}
+
+.sou{float:right;margin-right: 50px;}
+.search{margin-right: 0;float:left;}
+.sou img{margin-left:0;float:left;padding-top: 2px;}
+/*页面内容*/
+.content{width:1000px;margin:0px auto;padding-top:0;}
+.jianjie p{color:#0099CC;text-indent: 2em;margin:0 10px;line-height:32px;font-family:"宋体";}
+.jianjie h1{margin-top: 0;color:#0068ca;font-family:"华文新魏";margin-left: 10px;}
+hr{margin:0 10px 10px;}
+.youlai h1{color:#0068ca;font-family:"华文新魏";margin-left: 10px;}
+.youlai p{color:#0099CC;text-indent: 2em;margin:0 10px 10px;line-height:32px;font-family:"宋体";}
+.riqi{color:#FFFF99;text-align: center;border:1px solid #6600FF;margin:10px auto;}
+.riqi table tr td,th{border:1px solid #6600FF;width:180px;}
+.riqi h1{margin-top: 10px;color:#9966FF;font-family:"华文新魏";margin-left: 10px;}
+.fuhao p{color:#CC66FF;text-indent: 2em;margin:0 10px 10px;line-height:32px;font-family:"宋体";}
+.fuhao h1 a{color:#0068ca;font-family:"华文新魏";margin-left: 10px;}
+.fuhao div{color:#9933FF;margin:0 10px 10px;line-height:32px;font-family:"楷体";font-size:20px;}
+
+/*页面底部*/
+.footer{width:100%;
+	height:100px;
+	background-color:#fff;
+	text-align: center;
+	line-height: 32px;
+	color:#0033cc;
+	opacity: 0.3;
+	}
