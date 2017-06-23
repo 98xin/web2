@@ -33,6 +33,9 @@ ul li{list-style:none;}
 .sou img{margin-left:0;float:left;padding-top: 2px;}
 /*页面内容*/
 .content{width:1000px;margin:0px auto;}
+.m {color:#FFFF99;}
+.m a{color:#FFFF99;}
+.m a:hover{text-decoration:underline;}
 .yun{width:740px;margin:10px;float:left;}
 .yun h2{color:#CC99FF;font-family:"华文新魏";margin-left: 10px;}
 .xingyun{width:350px;height:200px;margin:10px;float:left;}
@@ -40,6 +43,7 @@ ul li{list-style:none;}
 .xingyun p{color:#CCFF99;text-indent: 2em;margin:0 10px;line-height:24px;font-family:"宋体";font-size: 14px;}
 .xingyun .tu{float:left;width:120px;height:200px;}
 .xingyun .wen{float:left; width:230px;height:200px;}
+.wen p span{color:#990099;text-align:right;}
 .wen a:hover{color:#990099;}
 .right{width:220px;margin:10px;float:left;}
 .redian{margin:10px 0;line-height:24px;font-family:"宋体";font-size: 16px;}
@@ -53,6 +57,14 @@ ul li{list-style:none;}
 .hot a{color:#FF3333;font-size: 16px;line-height:26px;}
 .n_hot a{color:#CC99CC;}
 .n_hot a:hover{text-decoration:underline;}
+.n{margin:10px;text-align:right;}
+.biao{color:#fff;margin:10px 0;line-height:24px;font-family:"宋体";font-size: 16px;}
+.biao table th{color:#330066;}
+.biao{background-color:#9966CC;opacity:0.7;}
+.kuang{height:40px;width:30px;margin:10px;padding:5px;border:1px solid #c9baa5;}
+.kuang a{color:#9966FF;}
+.nr{color:#fff;}
+
 /*页面底部*/
 .footer{width:100%;
 	height:100px;
