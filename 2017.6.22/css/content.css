@@ -41,7 +41,7 @@ hr{margin:0 10px 10px;}
 .ping h1{color:#fff;margin:0 10px 10px;line-height:32px;font-family:"华文新魏";font-size:26px;}
 .ping textarea{background-color:#9966CC;}
 .ping table tr td{width:500px;}
-.ping table{margin:10px;}
+.ping table{margin:10px;width:1000px;}
 .ping ul li{color:#330066;line-height:32px;}
 /*页面底部*/
 .footer{width:100%;

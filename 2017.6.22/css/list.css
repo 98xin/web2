@@ -25,7 +25,6 @@ ul li{list-style:none;}
 .menu a{float:left;color:#fff;
 	}
 .menu a:hover{color:#66FFFF;font-size:22px;}
-.menu a:visited{color:#6699FF;}
 .banner{width:100%;}
 
 .sou{float:right;margin-right: 50px;}
@@ -60,6 +59,7 @@ ul li{list-style:none;}
 .n{margin:10px;text-align:right;}
 .biao{color:#fff;margin:10px 0;line-height:24px;font-family:"宋体";font-size: 16px;}
 .biao table th{color:#330066;}
+.biao table tr .tb{width:60px;}
 .biao{background-color:#9966CC;opacity:0.7;}
 .kuang{height:40px;width:30px;margin:10px;padding:5px;border:1px solid #c9baa5;}
 .kuang a{color:#9966FF;}
