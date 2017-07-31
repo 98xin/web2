@@ -1,34 +1,14 @@
-body{background-color: #fee068}
-a{text-decoration:none;color:#000;}
-.clear{clear:both;}
-.logo{width:1000px;margin:0 auto;}
-.menu{width:1000px;
-	margin:0px auto;
-	height:40px;
-	padding-top: 10px;
-	text-align:center;
-	line-height:30px;
-	font-size:16px;
-	 }
-.daohang{background:#ff9900;margin:0;}
-.menu a{float:left;color:#fff;	}
-.menu a:hover{color:#ff6600;font-size:20px;}
-.banner{width:100%;margin:0;}
-.sou{float:right;margin-right: 50px;}
-.search{margin-right: 0;float:left;}
-.sou img{margin-left:0;float:left;padding-top: 5px;}
-
 
 .content{width:1000px;margin:0 auto;}
-.top{background:#feae17;float:left;margin-top:10px;border-radius:10px;}
+.top{background:url(images/c2.jpg);float:left;margin:10px 0px;border-radius:10px;}
 .top1{background:#feae17;float:left;margin:20px;border-radius:10px;width:200px;height:300px;color:#fff;}
 .top1 h3{text-align:center;}
 .top1 a{color:#fff;}
 .top1 a:hover{text-decoration:underline;}
 ul li{line-height:30px;}
 .left{float:left;}
-.right{float:left;line-height: 32px;margin:20px 10px;}
-h1 {text-align:center;}
+.right{float:left;line-height: 32px;margin:20px 10px;width:500px;}
+h1{text-align:center;margin-top:10px;}
 /*页面底部*/
 .footer{width:100%;
 	height:100px;
