@@ -5,15 +5,16 @@ a{text-decoration:none;color:#000;}
 .menu{width:1000px;
 	margin:0px auto;
 	height:40px;
-	padding-top: 10px;
 	text-align:center;
-	line-height:30px;
-	font-size:20px;
+	line-height:40px;
+	font-size:18px;
 	 }
+.l{margin:10px 0;}
 .daohang{background:#ff9900;margin:0;}
-.menu a{float:left;color:#fff;	}
-.menu a:hover{color:#ff6600;font-size:22px;}
+.menu a{float:left;color:#fff;display:block;margin:0;	}
+.menu a:hover{background-color:#ff6600;font-size:20px;height:40px;}
 .banner{width:100%;margin:0;}
 .sou{float:right;margin-right: 50px;}
 .search{margin-right: 0;float:left;}
-.sou img{margin-left:0;float:left;padding-top: 5px;}
+.sou a:hover{background-color:#ff9900;}
+.sou img{margin-left:0;float:left;padding-top: 5px;margin-top:6px;}
