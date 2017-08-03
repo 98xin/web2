@@ -32,7 +32,7 @@
 </div>
 </div>
 <div class=="banner">
-<img src="images/2.jpg" width="100%">
+<img src="images/banner.jpg" width="100%">
 </div>
 </div>
 
@@ -56,28 +56,12 @@
 </div>
 <div class="lefter">
 <h1>---- C语言学习 ----</h1>
-<div class="top1">
-<h3>C语言基础课程</h3>
-<ul>
-<li><a href="#">C语言课程介绍</a></li>
-<li><a href="#">二进制</a></li>
-<li><a href="#">基本数据类型</a></li>
-<li><a href="#">算术算法、运算符</a></li>
-<li><a href="#">循环结构</a></li>
-</ul>
-</div>
-<div class="top1">
-<h3>C语言精品课程</h3>
-<ul>
-<li><a href="#">数组</a></li>
-<li><a href="#">指针</a></li>
-<li><a href="#">函数</a></li>
-<li><a href="#">预处理指令</a></li>
-<li><a href="#">结构体</a></li>
-<li><a href="#">枚举、共用体、联合</a></li>
-</ul>
-</div>
-
+<table cellpadding="1" cellspacing="0">
+<tr><th colspan="3">C语言入门教程</th><th><a href="#">查看更多>></a></th></tr>
+<tr><td><a href="#">编程基础</a></td><td><a href="#">C语言初探</a></td><td><a href="#">变量和数据类型</a></td><td colspan="2" width="240"><a href="#">C语言输入输出</a></td></tr>
+<tr><td><a href="#">结构体</a></td><td><a href="#">共用体</a></td><td><a href="#">位运算</a></td><td colspan="2"><a href="#">分支结构和循环结构</a></td></tr>
+<tr><td><a href="#">C语言数组</a></td><td><a href="#">C语言函数</a></td><td><a href="#">预处理命令</a></td><td colspan="2"><a href="#">C语言指针</a></td></tr>
+</table>
 </div>
 <div class="righter">
 <h3>分类导航</h3>
@@ -93,12 +77,8 @@
 </div>
 <div class="center">
 <div class="lefter">
-<table cellpadding="1" cellspacing="0">
-<tr><th colspan="3">C语言入门教程</th><th><a href="#">查看更多>></a></th></tr>
-<tr><td>编程基础</td><td>C语言初探</td><td>变量和数据类型</td><td colspan="2" width="240">C语言输入输出</td></tr>
-<tr><td>结构体</td><td>共用体</td><td>位运算</td><td colspan="2">分支结构和循环结构</td></tr>
-<tr><td>C语言数组</td><td>C语言函数</td><td>预处理命令</td><td colspan="2">C语言指针</td></tr>
-</table>
+<h1>---- 就业未来 ----</h1>
+<img src="images/box.png" width="700">
 </div>
 <div class="righter">
 <h3>实例精讲</h3>
@@ -119,8 +99,40 @@
 <div class="clear">
 </div>
 <div class="bottom">
-<img src="images/box.jpg">
+
 </div>
+<div id="demo">
+	<table border=0 align=center cellpadding=1 cellspacing=1 cellspace=0 >
+		<tr><td valign=top bgcolor=ffffff id=marquePic1>
+	<table width='100%' border='0' cellspacing='0'><tr>
+<td align=center><a href="#"><img src="images/01.jpg" width=232 height=139 border=0><br><br>01</a></td>
+<td align=center><a href="#"><img src="images/02.jpg" width=232 height=139 border=0><br><br>02</a></td>
+<td align=center><a href="#"><img src="images/03.jpg" width=232 height=139 border=0><br><br>03</a></td>
+<td align=center><a href="#"><img src="images/04.jpg" width=232 height=139 border=0><br><br>04</a></td>
+<td align=center><a href="#"><img src="images/05.jpg" width=232 height=139 border=0><br><br>05</a></td>
+</tr></table>
+		</td><td id=marquePic2 valign=top></td></tr>
+	</table>
+</div>
+<div style="height:90px; width:1000px; padding-top:10px; margin:0px auto;">
+<script type="text/javascript">
+</script> 
+</script>
+</div>
+<script type="text/javascript">
+var speed=50 
+marquePic2.innerHTML=marquePic1.innerHTML 
+function Marquee(){ 
+if(demo.scrollLeft>=marquePic1.scrollWidth){ 
+demo.scrollLeft=0 
+}else{ 
+demo.scrollLeft++ 
+} 
+} 
+var MyMar=setInterval(Marquee,speed) 
+demo.onmouseover=function() {clearInterval(MyMar)} 
+demo.onmouseout=function() {MyMar=setInterval(Marquee,speed)} 
+</script>
 </div>
 
 <!--foot-->
