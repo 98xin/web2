@@ -1,0 +1,18 @@
+body{
+	background:url(../images/c7.jpg);
+	margin:0px;
+}
+a{text-decoration:none;color:#000;}
+.logo{width:1000px;margin:0 auto;}
+.menu{width:1000px;
+	margin:0px auto;
+	height:40px;
+	text-align:center;
+	line-height:40px;
+	font-size:18px;
+	 }
+.l{margin:10px 0;}
+.daohang{background:#ff9900;margin:0;}
+.menu a{float:left;display:block;margin:0;color:#fff;}
+.menu a:hover{background-color:#ff6600;font-size:20px;height:40px;text-decoration:none;}
+.banner{width:100%;margin:0;}
