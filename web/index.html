@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8"/>
+	<style type="text/css">
+		*{font-size:16px;margin:0px;padding:0px;}
+		li{list-style:none;}
+		#nav{
+			margin:10px 100px;
+		}
+		#nav li {
+			float:left;
+			width:100px;
+			margin:0;
+			padding:0;
+			background:#0099FF;
+			line-height:30px;
+			height:30px;
+			text-align: center;
+		}
+		#nav li:hover{
+			background:#0066ff;
+		}
+		#nav a{text-decoration:none;color:#000;height:30px;width:100px;margin:0;padding:0;display:block;}
+		#nav li a:hover{color:#fff;font-size:18px;}
+		#nav li ul{
+			margin:0;
+			display:none;
+		}
+		#nav li ul li:hover{background:#3399CC;}
+		#nav li ul li a:hover{font-size:16px;font-weight:bolder;}
+		.n{clear:both;height:50px;}
+		p{margin:10px;}
+		table{margin:10px 100px;}
+		h3{margin: 20px 50px;padding-left:50px;}
+		.btn{
+			font-size:14px;
+			margin-top:10px;
+			text-align:center;
+			margin-left:50px;
+		}
+		#divTip{background:#FFCCCC;font-size:20px;color:#990099;display:none;position:absolute;}
+		#content{
+			width:1000px;
+			margin-top:10px;
+		}
+	#pics{
+		float:left;
+		width:620px;
+		height:400px;
+		margin:10px 10px 10px 100px;
+	}
+	#lists{
+		float:left;
+		width:200px;
+		height:400px;
+		overflow-y:hidden;
+		margin-top: 10px;
+	}
+	#lists ul li{
+		margin:10px 0;
+	}
+	</style>
+</head>
+<body>
+	<p>----------------------------------------------------------------------------------------------------------------------------------------------------</p>
+	<ul id="nav">
+		<li><a  href="#">首页</a>
+			<ul class="t">
+				<li><a href="#">简介</a></li>
+				<li><a href="#">院线热映</a></li>
+				<li><a href="#">付费电影</a></li>
+			</ul>
+		</li>
+		<li><a href="#">电影</a>
+			<ul class="t">
+				<li><a href="#">鲛珠传</a></li>
+				<li><a href="#">羞羞的铁拳</a></li>
+				<li><a href="#">解忧杂货店</a></li>
+			</ul>
+		</li>
+		<li><a href="#">电视剧</a>
+			<ul class="t">
+				<li><a href="#">柒个我</a></li>
+				<li><a href="#">我的体育老师</a></li>
+				<li><a href="#">我的前半生</a></li>
+			</ul>
+		</li>
+		<li><a href="#">综艺</a>
+			<ul class="t"> 
+				<li><a href="#">演员的诞生</a></li>
+				<li><a href="#">国家宝藏</a></li>
+				<li><a href="#">亲爱的客栈</a></li>
+			</ul>
+		</li>
+		<li><a href="#">动漫</a>
+			<ul class="t">
+				<li><a href="#">狐妖小红娘</a></li>
+				<li><a href="#">小猪佩奇</a></li>
+				<li><a href="#">你的名字</a></li>
+			</ul>
+		</li>
+	</ul>
+	<div class="n"></div>
+	<div id="content">
+	<div id="pics">
+	<img id="place" src="images/0.jpg" width="620px" height="400px"/>
+	</div>
+	<div id="lists">
+	  	<ul>
+			<li> <a href="#"><img src="images/0.jpg" width="120" height="70" class="p"></a> </li>
+			<li> <a href="#"><img src="images/1.jpg" width="120" height="70" class="p"></a> </li>
+			<li> <a href="#"><img src="images/2.jpg" width="120" height="70" class="p"></a> </li>
+			<li> <a href="#"><img src="images/3.jpg" width="120" height="70" class="p"></a> </li>
+			<li> <a href="#"><img src="images/4.jpg" width="120" height="70" class="p"></a> </li>
+			<li> <a href="#"><img src="images/5.jpg" width="120" height="70" class="p"></a> </li>
+			<li> <a href="#"><img src="images/6.jpg" width="120" height="70" class="p"></a> </li>
+			<li> <a href="#"><img src="images/7.jpg" width="120" height="70" class="p"></a> </li>
+			<li> <a href="#"><img src="images/8.jpg" width="120" height="70" class="p"></a> </li>
+			<li> <a href="#"><img src="images/9.jpg" width="120" height="70" class="p"></a> </li>
+			<li> <a href="#"><img src="images/10.jpg" width="120" height="70" class="p"></a> </li>
+			<li> <a href="#"><img src="images/11.jpg" width="120" height="70" class="p"></a> </li>
+			<li> <a href="#"><img src="images/12.jpg" width="120" height="70" class="p"></a> </li>
+	  	</ul>
+	</div>
+	<div class="n"></div>
+		<div id="divTip">
+			Contents to be continued……
+		</div>	
+	</div>
+	<p>----------------------------------------------------------------------------------------------------------------------------------------------------</p>
+	<h3>注册/登录</h3>
+	<table>
+	<form>
+		<tr><td>用户名：</td><td><input type="text" name="user"/></td></tr>
+		<tr><td>密码：</td><td><input type="password" name="user"/></td></tr>
+		<tr><td>确认密码：</td><td><input type="password" name="user"/></td></tr>
+		<tr><td>手机号：</td><td><input type="text" name="user"/></td></tr>
+		<tr><td>邮箱：</td><td><input type="text" name="user"/></td></tr>
+		<tr><td colspan="2"><input type="submit" value="提交"  class="btn">&nbsp;&nbsp;<input type="reset" value="重置" class="btn"/></td></tr>
+	</form>
+	</table>
+</body>
+<script type="text/javascript">
+window.onload=function(){
+	//导航栏下拉列表实现效果
+	var liNodes=document.getElementById("nav").children;
+	var ulNodes=document.getElementById("nav").getElementsByClassName('t');
+	for(let i=0;i<liNodes.length;i++){
+		liNodes[i].onmouseover=function(){
+			ulNodes[i].style.display="block";
+		}
+		liNodes[i].onmouseout = function(){
+			ulNodes[i].style.display="none";
+		}
+	}
+	//表单验证
+	var user=document.getElementsByTagName('input')[0];//用户名
+		user.focus();//获得焦点
+		//失去焦点
+		user.onblur=function(){
+			if(user.value.length==0){
+				var spans=document.getElementsByTagName('span');
+				if(spans.length!=0){
+						spans[0].parentNode.removeChild(spans[0]);
+				}
+				var newspan=document.createElement('span');
+				newspan.innerHTML="用户名不能为空";
+				user.parentNode.appendChild(newspan);
+			}
+			else{
+				var spans=document.getElementsByTagName('span');
+				if(spans.length!=0){
+					spans[0].parentNode.removeChild(spans[0]);
+				}
+				var newspan=document.createElement('span');
+				newspan.innerHTML="用户名可用";
+				user.parentNode.appendChild(newspan);
+			}
+		}
+		var word=document.getElementsByTagName('input')[1];//密码
+		word.onblur=function(){
+			if(word.value.length==0){
+				var spans=document.getElementsByTagName('span');
+				if(spans.length>=2){
+					if(spans[1].length!=0)
+					spans[1].parentNode.removeChild(spans[1]);
+				}
+				var newspan=document.createElement('span');
+				newspan.innerHTML="密码不能为空";
+				word.parentNode.appendChild(newspan);
+			}
+			else{
+				var spans=document.getElementsByTagName('span');
+				if(spans.length>=2){
+					if(spans[1].length!=0)
+					spans[1].parentNode.removeChild(spans[1]);
+				}
+				var newspan=document.createElement('span');
+				newspan.innerHTML="密码可用";
+				word.parentNode.appendChild(newspan);
+			}
+		}
+		var pword=document.getElementsByTagName('input')[2];//确认密码
+		pword.onblur=function(){
+			if(pword.value.length==0){
+				var spans=document.getElementsByTagName('span');
+				if(spans.length>=3){
+					if(spans[2].length!=0)
+					spans[2].parentNode.removeChild(spans[2]);
+				}
+				var newspan=document.createElement('span');
+				newspan.innerHTML="密码不能为空";
+				pword.parentNode.appendChild(newspan);
+			}
+			else{
+				if(pword.value==word.value){
+					var spans=document.getElementsByTagName('span');
+					if(spans.length>=3){
+						if(spans[2].length!=0)
+						spans[2].parentNode.removeChild(spans[2]);
+					}
+					var newspan=document.createElement('span');
+					newspan.innerHTML="密码一致";
+					pword.parentNode.appendChild(newspan);
+				}
+				else{
+					var spans=document.getElementsByTagName('span');
+					if(spans.length==3){
+						if(spans[2].length!=0)
+						spans[2].parentNode.removeChild(spans[2]);
+					}
+					var newspan=document.createElement('span');
+					newspan.innerHTML="密码不一致";
+					pword.parentNode.appendChild(newspan);
+				}
+			}
+		}
+		var textbook=document.getElementsByTagName('input')[3];//电话号码
+		textbook.onblur=function(){
+			if(textbook.value.length==0){
+				var spans=document.getElementsByTagName('span');
+				if(spans.length>=4){
+					if(spans[3].length!=0)
+					spans[3].parentNode.removeChild(spans[3]);
+				}
+				var newspan=document.createElement('span');
+				newspan.innerHTML="电话号码不能为空";
+				textbook.parentNode.appendChild(newspan);
+			}
+			else{
+				var reg = /^1[3|4|5|7|8]\d{9}$/;
+				if(textbook.value.length!=11){
+					var spans=document.getElementsByTagName('span');
+					if(spans.length>=4){
+						if(spans[3].length!=0)
+						spans[3].parentNode.removeChild(spans[3]);
+					}
+					var newspan=document.createElement('span');
+					newspan.innerHTML="电话号码长度不正确";
+					textbook.parentNode.appendChild(newspan);
+				}
+				else{
+					if(reg.test(textbook.value)){
+						var spans=document.getElementsByTagName('span');
+						if(spans.length>=4){
+							if(spans[3].length!=0)
+							spans[3].parentNode.removeChild(spans[3]);
+						}
+					var newspan=document.createElement('span');
+					newspan.innerHTML="电话号码正确";
+					textbook.parentNode.appendChild(newspan);
+					}
+					else{
+						var spans=document.getElementsByTagName('span');
+						if(spans.length>=4){
+							if(spans[3].length!=0)
+							spans[3].parentNode.removeChild(spans[3]);
+						}
+					var newspan=document.createElement('span');
+					newspan.innerHTML="请输入电话正确的号码";
+					textbook.parentNode.appendChild(newspan);
+					
+					}
+				}
+			}
+		}
+		var emails=document.getElementsByTagName('input')[4];//邮箱
+		emails.onblur=function(){
+			if(emails.value.length==0){
+				var spans=document.getElementsByTagName('span');
+				if(spans.length>=5){
+					if(spans[4].length!=0)
+					spans[4].parentNode.removeChild(spans[4]);
+				}
+				var newspan=document.createElement('span');
+				newspan.innerHTML="邮箱不能为空";
+				emails.parentNode.appendChild(newspan);
+			}
+			else{
+				if (emails.value.search(/^\w+((-\w+)|(\.\w+))*\@[A-Za-z0-9]+((\.|-)[A-Za-z0-9]+)*\.[A-Za-z0-9]+$/) != -1){
+					var spans=document.getElementsByTagName('span');
+					if(spans.length>=5){
+						if(spans[4].length!=0)
+						spans[4].parentNode.removeChild(spans[4]);
+					}
+					var newspan=document.createElement('span');
+					newspan.innerHTML="邮箱正确";
+					emails.parentNode.appendChild(newspan);
+				}
+				else{
+					var spans=document.getElementsByTagName('span');
+					if(spans.length>=5){
+						if(spans[4].length!=0)
+						spans[4].parentNode.removeChild(spans[4]);
+					}
+					var newspan=document.createElement('span');
+					newspan.innerHTML="邮箱不正确";
+					emails.parentNode.appendChild(newspan);
+				}
+			}
+		}
+	//图片部分
+	var photo=document.getElementById('place');
+	var imgs=document.getElementsByClassName('p');
+	for(let i=0;i<imgs.length;i++){
+		imgs[i].onmouseover=function(){
+			photo.src = 'images/'+i+'.jpg';
+		}
+	}
+	//鼠标跟随效果
+	var divTip1=document.getElementById("divTip");
+		photo.onmousemove=function(e){
+			divTip1.style.display="block";
+			divTip1.style.left=e.clientX+5+"px";
+			divTip1.style.top=e.clientY+5+"px";
+		}
+		photo.onmouseout=function(){
+			divTip1.style.display="none";
+		}
+	//滚动条的实现
+	var speed=50;
+	function Marquee(){ 
+		if(lists.scrollTop>=lists.scrollHeight){ 
+			lists.scrollTop=0;
+		}
+		else{ 
+			lists.scrollTop++;
+		} 
+	} 
+	var MyMar=setInterval(Marquee,speed); 
+	lists.onmouseover=function() {clearInterval(MyMar)}; 
+	lists.onmouseout=function() {MyMar=setInterval(Marquee,speed)};	
+}
+</script>
+</html>
