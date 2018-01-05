@@ -4,26 +4,39 @@
 	<title></title>
 	<meta charset="utf-8"/>
 	<style type="text/css">
-		*{font-size:16px;margin:0px;padding:0px;}
+		*{margin:0px;padding:0px;font-family:'宋体';}
+		body{background:#99CCFF;}
 		li{list-style:none;}
+		#navv{width:100%;background:#0099FF;text-align: center;float:left;height:40px;padding:0;margin:0 0 30px 0;font-size:20px;}
 		#nav{
-			margin:10px 100px;
+			width:1100px;
+			margin:0 100px;
+			background:#0099FF;
+			float:left;
 		}
 		#nav li {
 			float:left;
-			width:100px;
+			width:130px;
 			margin:0;
 			padding:0;
 			background:#0099FF;
-			line-height:30px;
-			height:30px;
+			line-height:40px;
+			height:40px;
 			text-align: center;
 		}
 		#nav li:hover{
 			background:#0066ff;
 		}
-		#nav a{text-decoration:none;color:#000;height:30px;width:100px;margin:0;padding:0;display:block;}
-		#nav li a:hover{color:#fff;font-size:18px;}
+		#nav a{text-decoration:none;
+			color:#000;
+			height:40px;
+			width:130px;
+			margin:0;
+			padding:0;
+			display:block;
+			color:#fff;
+			font-family:'仿宋'}
+		#nav li a:hover{color:#000066;font-size:22px;}
 		#nav li ul{
 			margin:0;
 			display:none;
@@ -31,29 +44,33 @@
 		#nav li ul li:hover{background:#3399CC;}
 		#nav li ul li a:hover{font-size:16px;font-weight:bolder;}
 		.n{clear:both;height:50px;}
-		p{margin:10px;}
-		table{margin:10px 100px;}
-		h3{margin: 20px 50px;padding-left:50px;}
+		p{margin:0 10px;}
+		table{margin:40px 20px;width:400px;float:left;}
+		table .t1{width:100px;}
+		table .t input{width:120px;}
+		h3{margin:50px 100px 20px 100px;float:left;}
 		.btn{
 			font-size:14px;
 			margin-top:10px;
 			text-align:center;
-			margin-left:50px;
+			margin-left:30px;
+			width:50px;
 		}
 		#divTip{background:#FFCCCC;font-size:20px;color:#990099;display:none;position:absolute;}
 		#content{
-			width:1000px;
+			width:1300px;
 			margin-top:10px;
+			font-size:18px;
 		}
 	#pics{
 		float:left;
-		width:620px;
+		width:600px;
 		height:400px;
 		margin:10px 10px 10px 100px;
 	}
 	#lists{
 		float:left;
-		width:200px;
+		width:120px;
 		height:400px;
 		overflow-y:hidden;
 		margin-top: 10px;
@@ -61,10 +78,20 @@
 	#lists ul li{
 		margin:10px 0;
 	}
+	.footer{
+		width:100%;
+		height:100px;
+		text-align: center;
+		font-size:14px;
+		line-height: 32px;
+		color:#0033cc;
+		opacity: 0.5;
+	}
 	</style>
 </head>
 <body>
-	<p>----------------------------------------------------------------------------------------------------------------------------------------------------</p>
+	
+	<div id="navv">
 	<ul id="nav">
 		<li><a  href="#">首页</a>
 			<ul class="t">
@@ -102,10 +129,11 @@
 			</ul>
 		</li>
 	</ul>
+	</div>
 	<div class="n"></div>
 	<div id="content">
 	<div id="pics">
-	<img id="place" src="images/0.jpg" width="620px" height="400px"/>
+	<img id="place" src="images/0.jpg" width="600px" height="400px"/>
 	</div>
 	<div id="lists">
 	  	<ul>
@@ -124,23 +152,29 @@
 			<li> <a href="#"><img src="images/12.jpg" width="120" height="70" class="p"></a> </li>
 	  	</ul>
 	</div>
+	
+
+		<h3>注册/登录</h3>
+	<table>
+		
+	<form action="" method="GET">
+		<tr><td class="t1">用户名：</td><td class="t"><input type="text" name="user"/></td></tr>
+		<tr><td class="t1">密码：</td><td class="t"><input type="password" name="user"/></td></tr>
+		<tr><td class="t1">确认密码：</td><td class="t"><input type="password" name="user"/></td></tr>
+		<tr><td class="t1">手机号：</td><td class="t"><input type="text" name="user"/></td></tr>
+		<tr><td class="t1">邮箱：</td><td class="t"><input type="text" name="user"/></td></tr>
+		<tr><td colspan="2"><input type="submit" value="提交"  class="btn">&nbsp;&nbsp;<input type="reset" value="重置" class="btn"/></td></tr>
+	</form>
+	</table>	
 	<div class="n"></div>
 		<div id="divTip">
 			Contents to be continued……
-		</div>	
+		</div>
 	</div>
-	<p>----------------------------------------------------------------------------------------------------------------------------------------------------</p>
-	<h3>注册/登录</h3>
-	<table>
-	<form>
-		<tr><td>用户名：</td><td><input type="text" name="user"/></td></tr>
-		<tr><td>密码：</td><td><input type="password" name="user"/></td></tr>
-		<tr><td>确认密码：</td><td><input type="password" name="user"/></td></tr>
-		<tr><td>手机号：</td><td><input type="text" name="user"/></td></tr>
-		<tr><td>邮箱：</td><td><input type="text" name="user"/></td></tr>
-		<tr><td colspan="2"><input type="submit" value="提交"  class="btn">&nbsp;&nbsp;<input type="reset" value="重置" class="btn"/></td></tr>
-	</form>
-	</table>
+	<p>-----------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+	<div class="footer">
+	<div>Copyright&copy;2017-2018 http://www.***.com All Right Reserved </div><div>网站备案：冀ICP备00000000号</div>
+</div>
 
 <script type="text/javascript">
 window.onload=function(){
@@ -171,7 +205,7 @@ window.onload=function(){
 			}
 			else{
 				var spans=document.getElementsByTagName('span');
-				if(spans.length!=0){
+				if(spans.length>=1){
 					spans[0].parentNode.removeChild(spans[0]);
 				}
 				var newspan=document.createElement('span');
@@ -227,12 +261,13 @@ window.onload=function(){
 				}
 				else{
 					var spans=document.getElementsByTagName('span');
-					if(spans.length==3){
+					if(spans.length>=3){
 						if(spans[2].length!=0)
 						spans[2].parentNode.removeChild(spans[2]);
 					}
 					var newspan=document.createElement('span');
 					newspan.innerHTML="密码不一致";
+					pword.value="";
 					pword.parentNode.appendChild(newspan);
 				}
 			}
@@ -280,6 +315,7 @@ window.onload=function(){
 						}
 					var newspan=document.createElement('span');
 					newspan.innerHTML="请输入电话正确的号码";
+					textbook.value="";
 					textbook.parentNode.appendChild(newspan);
 					
 					}
@@ -317,10 +353,21 @@ window.onload=function(){
 					}
 					var newspan=document.createElement('span');
 					newspan.innerHTML="邮箱不正确";
+					emails.value="";
 					emails.parentNode.appendChild(newspan);
 				}
 			}
 		}
+
+	//提交
+	var btns=document.getElementsByClassName('btn');
+	btns[0].onclick=function(event){
+		if(user.value.length==0){
+			alert("用户名不能为空,请重新输入");
+			event.preventDefault();
+		}
+	}
+
 	//图片部分
 	var photo=document.getElementById('place');
 	var imgs=document.getElementsByClassName('p');
